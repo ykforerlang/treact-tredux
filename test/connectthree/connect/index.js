@@ -60,7 +60,7 @@ export default function connect(mapStateToProps, mapDispatchToProps) {
 
             render() {
                 return (
-                    <WrappedComponent {...this.props} {...this.memorizeProps} />
+                    React.createElement(WrappedComponent, {...this.props, ...this.memorizeProps})
                 )
             }
         }

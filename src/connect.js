@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import shallowEqual from '../util/shallowEqual'
+import shallowEqual from './util/shallowEqual'
 
 export default function connect(mapStateToProps, mapDispatchToProps) {
 
@@ -60,7 +60,7 @@ export default function connect(mapStateToProps, mapDispatchToProps) {
 
             render() {
                 return (
-                    <WrappedComponent {...this.props} {...this.memorizeProps} />
+                    React.createElement(WrappedComponent, {...this.props, ...this.memorizeProps})
                 )
             }
         }
