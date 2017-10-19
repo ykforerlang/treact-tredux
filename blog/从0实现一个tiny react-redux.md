@@ -287,6 +287,15 @@ function connect(mapStateToProps, mapDispatchToProps) {
 }
 ```
 
+### 其他
+[代码托管在git](https://github.com/ykforerlang/treact-tredux)
+安装：
+```
+npm install treact-tredux
+```
+
+
+
 
 
 
