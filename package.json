@@ -2,7 +2,7 @@
   "name": "treact-tredux",
   "version": "1.0.0",
   "description": "a tiny lib like react-redux ",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
